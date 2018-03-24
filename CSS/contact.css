@@ -1,0 +1,86 @@
+body {
+  background:url(../Images/bgc.jpg) center center fixed;
+  color:white;
+  width:100%;
+  color: #72bcd4;
+  overflow-x: hidden;
+}
+#navbar{
+  text-align: right;
+  word-spacing:20px;
+  padding:0;
+  white-space:nowrap;
+  width:90%;
+}
+#navbar li{
+  list-style:none;
+  display:inline;
+}
+a{
+text-decoration:none;
+color:#72d48a;
+}
+#navbar a{
+  color:#72bcd4;
+  font-size:20px;
+  padding: 5px;
+}
+a:hover{
+  border-radius: 1px;
+  border-color:#72d48a;
+  border-style:ridge;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+}
+.current a{
+  border:transparent;
+  background-color:white;
+  font-weight:bold;
+  border-radius:10%;
+}
+h1 {
+  font-family: 'IBM Plex Serif', serif, helvetica;
+  font-size: 5em;
+  color:#72d48a;
+  margin-bottom:0;
+}
+p {
+  font-family: serif, sans-serif, helvetica;
+  font-size: 2em;
+  width: 80%;
+}
+input, textarea{
+  display:block;
+  background:none;
+  border:none;
+  border-bottom: 1px #72d48a solid;
+  border-left:1px #72d48a solid;
+  width: 20%;
+  box-sizing:border-box;
+  padding: 1em;
+  margin:1em;
+  margin-top:30px;
+  font-size: 1em;
+  font-family: serif, helvetica;
+  color:white;
+}
+input[type=text] { *This was commented out before the form itself was commented out*
+    background-color: white;
+    background-image: url('fa fa-user-circle');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+button {
+  padding: 1em;
+  background-color:#72d48a;
+  border-radius: 10%;
+  margin-left:22em;
+  font-family:'pacifico', serif, helvetica;
+  font-size:15px;
+}
+
+#contact {
+  font-size: 30px;
+}
